@@ -2,7 +2,7 @@
 
 -- fpm.package: fifthtry.github.io/inter
 zip: github.com/fifthtry/inter/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/fifthtry/inter/main
+download-base-url: https://raw.githubusercontent.com/fifthtry/inter/main
 
 -- fpm.dependency: fifthtry.github.io/package-doc
 
