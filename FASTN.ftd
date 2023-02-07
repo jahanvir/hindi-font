@@ -1,7 +1,7 @@
 -- import: fastn
 
--- fastn.package: fifthtry.github.io/inter
-download-base-url: https://raw.githubusercontent.com/fifthtry/inter/main
+-- fastn.package: fifthtry.github.io/inter-font
+download-base-url: https://raw.githubusercontent.com/fifthtry/inter-font/main
 
 -- fastn.dependency: fifthtry.github.io/package-doc
 
