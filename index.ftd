@@ -1,6 +1,6 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/typography as tf
--- import: fifthtry.github.io/inter-font/assets as inter-assets
+-- import: jahanvir.github.io/hindi-font/assets as inter-assets
 -- import: fastn
 
 
@@ -10,7 +10,7 @@
 -- ftd.type inter-demo:
 size.px: 22
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Hindi
 line-height.px: 36
 letter-spacing.px: 0
 
@@ -19,7 +19,7 @@ letter-spacing.px: 0
 -- ftd.type inter-demo-heading:
 size.px: 48
 weight: 400
-font-family: $inter-assets.fonts.Inter
+font-family: $inter-assets.fonts.Hindi
 line-height.px: 56
 letter-spacing.px: 0
 
