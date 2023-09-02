@@ -24,12 +24,12 @@ line-height.px: 56
 letter-spacing.px: 0
 
 -- ftd.responsive-type small-heading:
-desktop: $rubik-devnagari-demo
-mobile: $rubik-devnagari-demo
+desktop: $rubik-demo
+mobile: $rubik-demo
 
 -- ftd.responsive-type large-heading:
-desktop: $rubik-devnagari-demo-heading
-mobile: $rubik-devnagari-demo-heading
+desktop: $rubik-demo-heading
+mobile: $rubik-demo-heading
 
 
 
@@ -40,7 +40,7 @@ padding-horizontal.px if {ftd.device == "mobile"}: 20
 background.solid: $inherited.colors.background.base
 
 
--- pd.package: Rubik Iso Devnagari - fastn font
+-- pd.package: Rubik Iso - fastn font
 name: jahanvir.github.io/rubik-font
 
 This component consist of Rubik Iso font with all it's styles.
