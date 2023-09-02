@@ -1,35 +1,35 @@
 -- import: fifthtry.github.io/package-doc/doc as pd
 -- import: fifthtry.github.io/package-doc/typography as tf
--- import: jahanvir.github.io/hindi-font/assets as inter-assets
+-- import: jahanvir.github.io/rubik-font/assets as rubik-assets
 -- import: fastn
 
 
 
 
 
--- ftd.type inter-demo:
+-- ftd.type rubik-demo:
 size.px: 22
 weight: 400
-font-family: $inter-assets.fonts.Hindi
+font-family: $rubik-assets.fonts.Rubik-Iso
 line-height.px: 36
 letter-spacing.px: 0
 
 
 
--- ftd.type inter-demo-heading:
+-- ftd.type rubik-demo-heading:
 size.px: 48
 weight: 400
-font-family: $inter-assets.fonts.Hindi
+font-family: $rubik-assets.fonts.Rubik-Iso
 line-height.px: 56
 letter-spacing.px: 0
 
 -- ftd.responsive-type small-heading:
-desktop: $inter-demo
-mobile: $inter-demo
+desktop: $rubik-demo
+mobile: $rubik-demo
 
 -- ftd.responsive-type large-heading:
-desktop: $inter-demo-heading
-mobile: $inter-demo-heading
+desktop: $rubik-demo-heading
+mobile: $rubik-demo-heading
 
 
 
@@ -40,36 +40,36 @@ padding-horizontal.px if {ftd.device == "mobile"}: 20
 background.solid: $inherited.colors.background.base
 
 
--- pd.package: Inter - fastn font
-name: fifthtry.github.io/inter
+-- pd.package: Rubik Iso - fastn font
+name: jahanvir.github.io/rubik-font
 
-This component consist of Inter font with all it's styles from Thin-100 to Black-900.
+This component consist of Rubik Iso font with all it's styles.
 
 
--- pd.component: Inter - fastn font
-name: https://github.com/FifthTry/inter
+-- pd.component: Rubik Iso - fastn font
+name: https://github.com/jahanvir/rubik-font
 
-This component consist of Inter font with all it's styles from Thin-100 to Black-900.
+This component consist of Rubik Iso font with all it's styles from Thin-100 to Black-900.
 
 
 
 -- pd.hidden-code: How to use
 
-include fifthtry.github.io/inter package into FASTN.ftd file
+include fifthtry.github.io/rubik-font package into FASTN.ftd file
 
-\-- fastn.dependency: fifthtry.github.io/inter/assets as inter
+\-- fastn.dependency: fifthtry.github.io/rubik-font/assets as rubik
 
-\-- fastn.auto-import: inter
+\-- fastn.auto-import: rubik
 
 Inside your .ftd file to change for any specific token use:
 
-\-- fastn.type.headline-small.font: $inter.fonts.Inter
+\-- fastn.type.headline-small.font: $rubik.fonts.Rubik-Iso
 
 \-- ftd.text:
 role: $fastn.type.headline-small
 
 
--- tf.h2: `inter-font` hairline 18px:
+-- tf.h2: `rubik-font` hairline 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.  
 role: $small-heading
