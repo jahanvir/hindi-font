@@ -1,34 +1,30 @@
-# Inter : FPM Font Package
+# Devnagari : FPM Font Package
 
 This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
-Inter](https://fonts.google.com/specimen/Inter/about).
+Rubik Iso](https://fonts.google.com/specimen/Rubik+Iso/about).
 
-Inter is a variable font family carefully crafted & designed for computer screens.
-Inter features a tall x-height to aid in readability of mixed-case and lower-case
-text. Several OpenType features are provided as well, like contextual alternates 
-that adjusts punctuation depending on the shape of surrounding glyphs, slashed 
-zero for when you need to disambiguate "0" from "o", tabular numbers, et
+The Generative Fonts is an original, script-generated collection of fonts based on the Google Fonts Rubik by Hubert and Fischer, Meir Sadan and Cyreal. 
 
-Designers: Rasmus Andersson, Principal design
+Designers: Luke Prowse, Principal design
 
 ## How To Use This Font In Your FPM Package:
 
-[Read the docs and demo](https://fifthtry.github.io/inter).
+[Read the docs and demo](https://jahanvir.github.io/rubik-font).
 
 TLRD:
 
-Include fifthtry.github.io/inter package into `FPM.ftd` file:
+Include jahanvir.github.io/rubik-font package into `FPM.ftd` file:
 
 ```ftd
-;-- fpm.dependency: fifthtry.github.io/inter
+;-- fpm.dependency: jahanvir.github.io/rubik-font
 ```
 
 Inside your `FPM/config.ftd` use the font:
 
 ```ftd
-;-- import: fifthtry.github.io/inter/assets as inter
+;-- import: jahanvir.github.io/rubik-font/assets as inter
 
-;-- fpm.type.headline-small: $inter.fonts.Inter
+;-- fpm.type.headline-small: $rubik.fonts.Rubik-Iso
 ```
 
 Now if in any file you do:
@@ -38,7 +34,7 @@ Now if in any file you do:
 role: $fpm.type.headline-small
 ```
 
-You will see the `inter` font.
+You will see the `rubik` font.
 
 ## 👀 Want to learn more?
 
@@ -47,10 +43,5 @@ server](https://discord.gg/bucrdvptYd).
 
 ## License
 
-Since Inter Font is under [Open Font Licence](https://fonts.google.com/specimen/Inter/about), this FPM wrapper is also
+Since Rubik Font is under [Open Font Licence](https://fonts.google.com/specimen/Rubik+Iso/about), this FPM wrapper is also
 under [Open Font Licence](LICENSE).
-
-
-
-
-
