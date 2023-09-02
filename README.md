@@ -1,4 +1,4 @@
-# Devnagari : FPM Font Package
+# Rubik : FPM Font Package
 
 This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
 Rubik Iso](https://fonts.google.com/specimen/Rubik+Iso/about).
