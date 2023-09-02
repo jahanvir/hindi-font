@@ -77,7 +77,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: hairline
 
--- tf.h2: `inter-font` extra-light 18px:
+-- tf.h2: `rubik-font` extra-light 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.  
 role: $small-heading
@@ -85,7 +85,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: extra-light
 
--- tf.h2: `inter-font` light 18px:
+-- tf.h2: `rubik-font` light 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.  
 role: $small-heading
@@ -93,7 +93,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: light
 
--- tf.h2: `inter-font` regular 18px:
+-- tf.h2: `rubik-font` regular 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.  
 role: $small-heading
@@ -101,7 +101,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: regular
 
--- tf.h2: `inter-font` regular strike through 18px:
+-- tf.h2: `rubik-font` regular strike through 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -109,7 +109,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: regular strike
 
--- tf.h2: `inter-font` regular underline 18px:
+-- tf.h2: `rubik-font` regular underline 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -117,7 +117,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: regular underline
 
--- tf.h2: `inter-font` regular italic 18px:
+-- tf.h2: `rubik-font` regular italic 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -125,7 +125,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: regular italic
 
--- tf.h2: `inter-font` medium 18px:
+-- tf.h2: `rubik-font` medium 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -133,7 +133,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: medium
 
--- tf.h2: `inter-font` semi-bold 18px:
+-- tf.h2: `rubik-font` semi-bold 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -141,7 +141,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: semi-bold
 
--- tf.h2: `inter-font` bold 18px:
+-- tf.h2: `rubik-font` bold 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -149,7 +149,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: bold
 
--- tf.h2: `inter-font` extra-bold 18px:
+-- tf.h2: `rubik-font` extra-bold 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -157,7 +157,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: extra-bold
 
--- tf.h2: `inter-font` heavy 18px:
+-- tf.h2: `rubik-font` heavy 18px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $small-heading
@@ -165,7 +165,7 @@ color: $inherited.colors.text-strong
 margin-bottom.px: 24
 ;; style: heavy
 
--- tf.h2: `inter-font` heading regular 48px:
+-- tf.h2: `rubik-font` heading regular 48px:
 
 -- ftd.text: Todos os seres humanos nascem livres e iguais em dignidade.
 role: $large-heading
